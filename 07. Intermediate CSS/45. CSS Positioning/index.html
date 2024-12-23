@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      margin: 0;
+      padding: 0;
+    }
+
+    h2 {
+      margin: 0;
+      padding: 0;
+    }
+
+
+    .blue-box {
+      position: relative;
+      background-color: blue;
+      width: 500px;
+      height: 300px;
+      margin: 200px 0 0 200px;
+
+    }
+    .red-circle {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: red;
+      margin-top: 200px;
+      margin-left: 250px;
+    }
+
+    .box2 {
+      position: relative;
+      background-color: green;
+      width: 500px;
+      height: 300px;
+      margin: 0 0 0 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    hr {
+      position: relative;
+      width: 500px;
+      height: 10px;
+      margin: 0;
+      margin-left: 200px;
+      background-color: black;
+      z-index: 1;
+      border: 0;
+    }
+
+    .box2 #test {
+      text-align: center;
+      color: white;
+    }
+
+    .box3 {
+      position: relative;
+      background-color: olive;
+      width: 500px;
+      height: 400px;
+      margin: 0 0 0 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .box3 h1 {
+      text-align: center;
+      color: white;
+    }
+
+    .box3 #test {
+      text-align: center;
+      color: red;
+    }
+
+  </style>
+</head>
+
+<body>
+  
+  
+  <div class="blue-box">
+    <div class="red-circle">
+    </div>
+  </div>
+  <hr />
+  <div class="box2">
+    <h1 id="test">
+      This is a green box
+    </h1>
+  </div>
+  <hr />
+  <div class="box3">
+    <h1 id="test">
+      This is a olive box
+    </h1>
+    <h2>
+      This color is one of my favorites
+    </h2>
+  </div>
+  <hr />
+</body>
+
+</html>

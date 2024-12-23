@@ -1,0 +1,26 @@
+/* Write your code here: */
+
+h1, h2 {
+    color: blueviolet;
+}
+
+/* Child combinator Selector */
+.box > p {
+    color: firebrick;
+}
+
+/* Descendant Selector */
+.box li {
+    color: blue;
+}
+
+/*Chaining Methodd, can add mutiple items together*/
+
+li.done {
+    color:seagreen;
+}
+
+/* Descendant Selector with the Chaining Method */
+ul p.done {
+    color: darkorange;
+}
